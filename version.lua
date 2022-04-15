@@ -19,7 +19,7 @@ function GetCurrentVersion()
 end
 
 -- Grabs the latest version number from the web GitHub
-PerformHttpRequest("https://versie.lucadev.nl/CarWipe-FiveM/version.txt", function( err, text, headers )
+PerformHttpRequest("https://version.lucadev.nl/CarWipe-FiveM/version.txt", function( err, text, headers )
 	Citizen.Wait(2000)
 	print( label )
 	local curVer = GetCurrentVersion()
