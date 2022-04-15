@@ -101,13 +101,37 @@ AddEventHandler("delallveh", function ()
     })
     Citizen.Wait(1000) 
     for vehicle in EnumerateVehicles() do
-    if (not IsPedAPlayer(GetPedInVehicleSeat(vehicle, -1))) then 
+        if (not IsPedAPlayer(GetPedInVehicleSeat(vehicle, -1))) then 
             SetVehicleHasBeenOwnedByPlayer(vehicle, false) 
             SetEntityAsMissionEntity(vehicle, false, false) 
             DeleteVehicle(vehicle)
             ESX.Game.DeleteVehicle(vehicle)
             DeleteEntity(vehicle)
+            DeleteVehicle(vehicle) 
+            ESX.Game.DeleteVehicle(vehicle)
+            DeleteEntity(vehicle)
             if (DoesEntityExist(vehicle)) then 
+                DeleteVehicle(vehicle) 
+                ESX.Game.DeleteVehicle(vehicle)
+                DeleteEntity(vehicle)
+                DeleteVehicle(vehicle) 
+                ESX.Game.DeleteVehicle(vehicle)
+                DeleteEntity(vehicle)
+            end
+            Citizen.Wait(1000)
+            if (DoesEntityExist(vehicle)) then 
+                DeleteVehicle(vehicle) 
+                ESX.Game.DeleteVehicle(vehicle)
+                DeleteEntity(vehicle)
+                DeleteVehicle(vehicle) 
+                ESX.Game.DeleteVehicle(vehicle)
+                DeleteEntity(vehicle)
+            end
+            Citizen.Wait(1000)
+            if (DoesEntityExist(vehicle)) then 
+                DeleteVehicle(vehicle) 
+                ESX.Game.DeleteVehicle(vehicle)
+                DeleteEntity(vehicle)
                 DeleteVehicle(vehicle) 
                 ESX.Game.DeleteVehicle(vehicle)
                 DeleteEntity(vehicle)
