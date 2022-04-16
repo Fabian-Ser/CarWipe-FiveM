@@ -10,7 +10,7 @@
 </p>
 
 
-Hello,
+**Hello,**
 
 I myself was always looking for a good working script for a carwipe every hour for example, but never really could find something good, and something that actually did it right. So I made my own version of a carwipe script.
 
@@ -27,17 +27,13 @@ A script that allows you to run a carwipe every so often (hours/minutes), this w
 - Delete & Normal destroyed vehicle's
 - A option to use ESX or not
 - Not deleting of someone is driveing the vehicle
-- A option to only carwipe broken vehicles
+- A option to only carwipe broken vehicles [PREVIEW v1.1.1](https://youtu.be/WGoHoXCuaVE)
 
-[PREVIEW](https://youtu.be/58E7WdJvPlQ)
-
-[DOWNLOAD](https://github.com/LucaNL/CarWipe-FiveM/)
-
-### Changelog v1.1.0
-- Fixed some delay
-- Made the config better
-- Esx and not working (need to change the config)
-- Can alerts set on/off
+  _This script has a version check, new versions will be released regularly, so you can see it right at the start of the server._
+  
+# Download and preview
+[PREVIEW v1.1.0](https://youtu.be/58E7WdJvPlQ)
+[DOWNLOAD](https://github.com/LucaNL/CarWipe-FiveM/archive/refs/heads/main.zip) 
 
 ### How to install
 1. Download the recource
@@ -48,3 +44,17 @@ A script that allows you to run a carwipe every so often (hours/minutes), this w
 ensure CarWipe
 ```
 5. Enjoy the script :D
+
+# Changelog
+**Changelog v1.1.1** [PREVIEW v1.1.1](https://youtu.be/WGoHoXCuaVE)
+```
+  A option to only carwipe broken vehicles
+```
+  
+**Changelog v1.1.0** [PREVIEW v1.1.0](https://youtu.be/58E7WdJvPlQ)
+```
+  Fixed some delay
+  Made the config better
+  Esx and not working (need to change the config)
+  Can alerts set on/off
+```
