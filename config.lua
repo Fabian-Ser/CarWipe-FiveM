@@ -1,6 +1,10 @@
 Config = {}
 
 Config = {
-    commandName = "dellall", -- For manual carwipes
-    restricCommand = true -- can everyone do this?
+    commandName = "delall", -- For manual carwipes
+    restricCommand = true, -- Now you need permission to do
+    alerts = true, -- Notify in chat when a carwipe is comming
+    use10msdelay = true, -- use 10ms delay by deleting a vehicle
+    DoneNotify = true, -- Send a notify when the carwipe is done
+    UseESX = true -- Set this to enable or disable ESX, this is for the delete functions
 }

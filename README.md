@@ -13,6 +13,17 @@
 # CarWipe-FiveM
 A script that allows you to run a carwipe every so often (hours/minutes), this will remove all cars that no one is in to prevent lag. This script does not cause any performance loss.
 
+### Features:
+
+- Change time for carwipe with cron:runAt in the server.lua
+- Notifications when a carwipe is upcoming and done in config
+- Config the 10ms delay x vehicle to delete
+- Multiple delete functions so the vehicle always goes away
+- A command to manually start a carwipe if you like
+- Delete & Normal destroyed vehicle's
+- A option to use ESX or not
+- Not deleting of someone is driveing the vehicle
+
 ### How to install
 1. Download the recource
 2. Change the config in config.lua and take a look at the server.lua for adjustments

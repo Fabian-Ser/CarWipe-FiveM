@@ -28,11 +28,27 @@ PerformHttpRequest("https://version.lucadev.nl/CarWipe-FiveM/version.txt", funct
 		print( "  ||    Latest recommended version: " .. text .."\n  ||" )
 
 		if ( text ~= curVer ) then
-			print( "  ||    ^1Your CarWipe version is outdated, visit the github at https://github.com/LucaNL/CarWipe-FiveM to get the latest version.\n^0  \\\\\n" )
+			print( "  ||    ^1Your CarWipe version is outdated, please visit the FiveM forum page at https://forum.cfx.re/t/release-free-carwipe-fivem/4839898 to get the latest version.\n^0  \\\\\n" )
 		else
 			print( "  ||    ^2CarWipe is up to date!\n^0  ||\n  \\\\\n" )
 		end
 	else
 		print( "  ||    ^1There was an error getting the latest version information.\n^0  ||\n  \\\\\n" )
+	end
+end)
+
+
+print( "  ||    Changes in new version: " .. text .."\n  ||" )
+
+
+PerformHttpRequest("https://version.lucadev.nl/CarWipe-FiveM/changelog.txt", function( err, text, headers )
+	Citizen.Wait(2000)
+	local curVer = GetCurrentVersion()
+	if ( text ~= nil ) then
+		if ( text ~= curVer ) then
+			print( "  ||    Changes in new version: " .. text .."\n  ||" )
+		end
+	else
+		print( "  ||    ^1There was an error getting the latest changelog information.\n^0  ||\n  \\\\\n" )
 	end
 end)
