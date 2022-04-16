@@ -32,7 +32,7 @@ A script that allows you to run a carwipe every so often (hours/minutes), this w
 
 [DOWNLOAD](https://github.com/LucaNL/CarWipe-FiveM/)
 
-Changelog v1.1.0
+### Changelog v1.1.0
 - Fixed some delay
 - Made the config better
 - Esx and not working (need to change the config)
