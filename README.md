@@ -27,6 +27,7 @@ A script that allows you to run a carwipe every so often (hours/minutes), this w
 - Delete & Normal destroyed vehicle's
 - A option to use ESX or not
 - Not deleting of someone is driveing the vehicle
+- A option to only carwipe broken vehicles
 
 [PREVIEW](https://youtu.be/58E7WdJvPlQ)
 
