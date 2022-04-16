@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'LucaNL#2230'
 description 'A script that allows you to run a carwipe every so often (hours/minutes), this will remove all cars that no one is in to prevent lag. This script does not cause any performance loss.'
-version '1.1.0'
+version '1.1.1'
 
 server_script {
     'config.lua',
