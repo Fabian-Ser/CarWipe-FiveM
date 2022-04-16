@@ -10,6 +10,10 @@
 </p>
 
 
+Hello,
+
+I myself was always looking for a good working script for a carwipe every hour for example, but never really could find something good, and something that actually did it right. So I made my own version of a carwipe script.
+
 # CarWipe-FiveM
 A script that allows you to run a carwipe every so often (hours/minutes), this will remove all cars that no one is in to prevent lag. This script does not cause any performance loss.
 
@@ -23,6 +27,16 @@ A script that allows you to run a carwipe every so often (hours/minutes), this w
 - Delete & Normal destroyed vehicle's
 - A option to use ESX or not
 - Not deleting of someone is driveing the vehicle
+
+[PREVIEW](https://youtu.be/58E7WdJvPlQ)
+
+[DOWNLOAD](https://github.com/LucaNL/CarWipe-FiveM/)
+
+### Changelog v1.1.0
+- Fixed some delay
+- Made the config better
+- Esx and not working (need to change the config)
+- Can alerts set on/off
 
 ### How to install
 1. Download the recource
