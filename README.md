@@ -29,6 +29,7 @@ A script that allows you to run a carwipe every so often (hours/minutes), this w
 - Not deleting of someone is driveing the vehicle
 
 [PREVIEW](https://youtu.be/58E7WdJvPlQ)
+
 [DOWNLOAD](https://github.com/LucaNL/CarWipe-FiveM/)
 
 Changelog v1.1.0
